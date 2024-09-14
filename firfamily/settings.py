@@ -80,7 +80,7 @@ AUTH_USER_MODEL='testapp.customuser'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'database-2',
+        'NAME': 'family2',
         'USER':'admin',
         'PASSWORD':'admin123',
         'HOST':'database-2.cz8w2oci46gh.eu-north-1.rds.amazonaws.com',
