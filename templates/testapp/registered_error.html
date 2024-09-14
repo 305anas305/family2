@@ -1,0 +1,16 @@
+{% extends "testapp/base.html" %}
+
+{% block title %}Home{% endblock %}
+{% block navbar_buttons_right %}
+
+            <div class="nav-buttons">
+                <a href="/signup" class="nav-button">Signup</a>
+                <a href="/home" class="nav-button">Home</a>
+
+            </div>
+
+
+{% endblock %}
+{% block content %}
+<h1 style="font-size: 3em; color: black; text-align: center; margin: 20px 0;">Username Already exists,go for new username</h1>
+{% endblock %}
